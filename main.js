@@ -13,5 +13,5 @@ button.addEventListener('click',function(){
     setTimeout(() => {
         button.classList.add('clicked');
     }, 5000);
-    window.location.href = "./game.html";
+    window.location.href = "game.html";
 });
