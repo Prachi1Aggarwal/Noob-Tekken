@@ -5,7 +5,7 @@ let counter2 = 5;
 let score1=0;
 let score2=0;
 
-const audio = new Audio("../90s Web/assets/audio/gametrack.mp3");
+const audio = new Audio("./assets/audio/gametrack.mp3");
 audio.currentTime = 0 ;
 
 function checkWin(a,b){
@@ -98,13 +98,13 @@ function gaming(counter1,counter2){
 
   if(counter2==0) {
     document.getElementById('main-heading').innerHTML='WON';
-    document.getElementById('player1').src="../90s Web/assets/images/win.png";
+    document.getElementById('player1').src="./assets/images/win.png";
 
   }
 
   else{
     document.getElementById("main-heading").innerHTML = "LOOSER";
-    document.getElementById('player2').src="../90s Web/assets/images/win.png";
+    document.getElementById('player2').src="./assets/images/win.png";
 
   }
   document.getElementById("score1").innerText = score1;
